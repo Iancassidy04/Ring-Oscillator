@@ -16,9 +16,7 @@ EE5410 VLSI Circuit Design, Fall 2026.
 | `Cadence Imagers/` | Schematic screenshots |
 | `Simulation Plots/` | Simulation figures |
 
-## Usage
 
-Requires Python 3.10+ with `numpy` and `matplotlib`.
 
 ```
 python design_optimization.py     # design table for every odd n
@@ -26,7 +24,7 @@ python compre_optimization.py     # corner and sensitivity comparison
 python plot_CSV.py                # analyze RingOSC_data.csv
 ```
 
-Device parameters come from the gpdk045 PDK Model Report (TT corner); the oxide thickness is assumed.
+Device parameters come from the gpdk045 PDK Model
 
 ## Author
 
